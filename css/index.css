@@ -17,11 +17,15 @@ body {
 }
 
 #expand {
-  font-size: 30px;
   color: #587292;
   font-weight: 700;
   cursor: pointer;
   text-align: right;
+}
+
+#expandIcon {
+  font-size: 36px;
+  margin-top: 3px;
 }
 
 hr {
