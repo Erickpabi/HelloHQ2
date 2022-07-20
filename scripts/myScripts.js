@@ -7,7 +7,12 @@ function changeIcon(anchor) {
   }
 
   function changeIcon2() {
-    let element = document.getElementById("expand")
-    console.log(element)
-    element.nodeValue = 'expand_more'
+    let element = document.getElementById("expandIcon")
+    console.log(element.innerText)
+    if(element.innerText === 'expand_more'){
+        element.innerText = 'expand_less'
+    } else {
+        element.innerText = 'expand_more'
+    }
+    
   }
