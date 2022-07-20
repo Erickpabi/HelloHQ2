@@ -148,10 +148,7 @@ body {
     border-color:  #D4E3F6;
     width: 60px;
     height:60px;
-    // margin-top: 110px;
     border-width: 0.13rem;
-    // position: absolute;
-    // top:50%;
     padding-top: auto;
     padding-bottom: auto;
     
@@ -199,21 +196,6 @@ body {
     margin-bottom: 80px;
   }
 
-  svg{
-    height: 65px;
-    width: 6px;
-    margin-left: 450px;
-  }
-
-  circle {
-    fill: transparent;
-    stroke: green;
-    stroke-width: 3;
-  }
-
-  .dashed {
-    stroke-dasharray: 8, 8.5;
-  }
 
   .project{
     font-weight: 400;
@@ -228,12 +210,7 @@ body {
     
   }
 
-//   #albert{
-//     border-radius: 5px;
-//     width: fit-content;
-//     padding: 0.15rem 0.6rem 0.15rem 0.6rem;
-//     font-size: 12px;
-//   }
+
 
   .standard{
     font-weight: 400;

@@ -180,22 +180,6 @@ hr {
   margin-bottom: 80px;
 }
 
-svg {
-  height: 65px;
-  width: 6px;
-  margin-left: 450px;
-}
-
-circle {
-  fill: transparent;
-  stroke: green;
-  stroke-width: 3;
-}
-
-.dashed {
-  stroke-dasharray: 8, 8.5;
-}
-
 .project {
   font-weight: 400;
   background-color: #A7BCD7;
