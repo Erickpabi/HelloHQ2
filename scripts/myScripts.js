@@ -1,4 +1,4 @@
-function changeIcon2() {
+function changeIcon() {
     let element = document.getElementById("expandIcon")
     console.log(element.innerText)
     if(element.innerText === 'expand_less'){
