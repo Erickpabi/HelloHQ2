@@ -5,8 +5,8 @@ body {
   }
   
   #team{
-    font-weight: 700;
-    color:#587292;
+    font-weight: $font-bold;
+    color:$primary;
     font-size: 22px;
   }
 
@@ -19,8 +19,8 @@ body {
 
   #expand{
   
-    color:#587292;
-    font-weight: 700;
+    color:$primary;
+    font-weight:$font-bold;
     cursor: pointer;
     text-align: right;
     
@@ -35,7 +35,7 @@ body {
 
   hr{
     height: 4px !important;
-    background-color: #D4E3F6 !important; 
+    background-color: $tertiary !important; 
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     width: 1000px !important;
@@ -97,21 +97,21 @@ body {
 
   #delete{
     margin-right: 5px;
-    color:#587292;
+    color:$primary;
     font-size: 33px;
     margin-top: 10px;
   }
 
   #pencil{
-    color:#587292;
+    color:$primary;
     font-size: 33px;
     margin-right: 100px;
     margin-top: 10px;
   }
   #camhead{
     margin-top:10px;
-    color:#587292;
-    font-weight: 600;
+    color:$primary;
+    font-weight: $font-semibold;
     white-space: nowrap; 
     font-size:16px;
   width: 170px; 
@@ -134,7 +134,7 @@ body {
   }
   #account{
     font-size: 35px;
-    color:#D4E3F6;
+    color:$tertiary;
     margin-left:10px ;
     margin-top: 10px;
     
@@ -145,7 +145,7 @@ body {
   .dotted{
     border-radius: 50%;
     border-style: dashed;
-    border-color:  #D4E3F6;
+    border-color:  $tertiary;
     width: 60px;
     height:60px;
     border-width: 0.13rem;
@@ -183,10 +183,10 @@ body {
         }
         
         .dotted {
-               border-color:#587292
+               border-color:$primary;
         }
         #account{
-            color:#587292
+            color:$primary;
             
         }
       
@@ -198,8 +198,8 @@ body {
 
 
   .project{
-    font-weight: 400;
-    background-color: #A7BCD7;
+    font-weight: $font-regular;
+    background-color:$secondary;
     color: #fff;
     text-align: center;
     border-radius: 5px;
@@ -213,8 +213,8 @@ body {
 
 
   .standard{
-    font-weight: 400;
-    color:#D4E3F6;
+    font-weight: $font-regular;
+    color:$tertiary;
     font-size: 13px;
     margin-top: -7px;
   }
